@@ -16,22 +16,22 @@ npm install express dotenv @google/generative-ai multer
 const { prompt } = req.body; Retrieves the user’s prompt input sent from the client (e.g., Postman or frontend).
 
 Test text API using POSTMAN  
-1.Open Postman  
-2.Method: POST  
-3.URL: http://localhost:3000/generate-text  
-4.Tab: Body → raw → JSON  
-5.Input prompt  
-6.Click Send  
-7.See the response  
+1. Open Postman  
+2. Method: POST  
+3. URL: http://localhost:3000/generate-text  
+4. Tab: Body → raw → JSON  
+5. Input prompt  
+6. Click Send  
+7. See the response  
 
 Test file (image, audio & document) API using POSTMAN  
-1.Open Postman  
-2.Method: POST  
-3.URL: http://localhost:3000/generate-from-image  
-4.Tab: Body → form-data  
-5.Added 2 key:  
+1. Open Postman  
+2. Method: POST  
+3. URL: http://localhost:3000/generate-from-image  
+4. Tab: Body → form-data  
+5. Added 2 key:  
 A. image (type: File) → upload file .png, .jpg, etc.  
 B. prompt (type: Text) → i.e : Describe this image/audio/document  
-6.Click Send  
-7.See the response  
+6. Click Send  
+7. See the response  
 
