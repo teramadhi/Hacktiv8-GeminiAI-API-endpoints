@@ -6,10 +6,10 @@ Gemini API
 
 npm install express dotenv @google/generative-ai multer
 
-● express: Sets up the REST API.
-● dotenv: Loads the Gemini API key securely from a .env file.
-● @google/generative-ai: Connects to the Gemini API (including Flash 2.0). (July 2025)
-● multer: Handles file uploads (image, audio, document inputs).
+- express: Sets up the REST API.
+- dotenv: Loads the Gemini API key securely from a .env file.
+- @google/generative-ai: Connects to the Gemini API (including Flash 2.0). (July 2025)
+- multer: Handles file uploads (image, audio, document inputs).
 
 create .env file : This file holds environment variables, especially sensitive credentials like your Gemini API key. i.e : GEMINI_API_KEY=your_credential_key
 
