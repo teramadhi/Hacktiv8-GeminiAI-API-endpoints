@@ -11,7 +11,7 @@ npm install express dotenv @google/generative-ai multer
 - @google/generative-ai: Connects to the Gemini API (including Flash 2.0). (July 2025)  
 - multer: Handles file uploads (image, audio, document inputs).  
 
-.env file : This file holds environment variables, especially sensitive credentials like your Gemini API key. i.e : GEMINI_API_KEY=your_credential_key
+.env file : This file holds environment variables, especially sensitive credentials like your Gemini API key. i.e : 'GEMINI_API_KEY=your_credential_key'
 
 const { prompt } = req.body; Retrieves the user’s prompt input sent from the client (e.g., Postman or frontend).
 
