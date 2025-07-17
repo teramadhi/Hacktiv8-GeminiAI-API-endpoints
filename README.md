@@ -30,7 +30,7 @@ Test file (image, audio & document) API using POSTMAN
 3.URL: http://localhost:3000/generate-from-image  
 4.Tab: Body → form-data  
 5.Added 2 key:  
-A. image (type: File) → upload file .png, .jpg, dll.  
+A. image (type: File) → upload file .png, .jpg, etc.  
 B. prompt (type: Text) → i.e : Describe this image/audio/document  <
 6.Click Send  
 7.See the response  
