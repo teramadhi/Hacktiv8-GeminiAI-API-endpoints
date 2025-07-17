@@ -31,7 +31,7 @@ Test file (image, audio & document) API using POSTMAN
 4.Tab: Body → form-data  
 5.Added 2 key:  
 A. image (type: File) → upload file .png, .jpg, etc.  
-B. prompt (type: Text) → i.e : Describe this image/audio/document  <
+B. prompt (type: Text) → i.e : Describe this image/audio/document  
 6.Click Send  
 7.See the response  
 
