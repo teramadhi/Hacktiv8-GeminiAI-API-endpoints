@@ -1,7 +1,7 @@
 # Hacktiv8-GeminiAI-API-endpoints
 Hacktiv8 - AI Wave 2 Developer -Implement Gemini AI API endpoints
 
-2025-07-15, Version 22.17.1 'Jod' (LTS)
+Node Js 2025-07-15, Version 22.17.1 'Jod' (LTS)  
 Gemini API 
 ```
 npm install express dotenv @google/generative-ai multer
